@@ -10,7 +10,7 @@
   <meta name="description" content="">
 
   
-  <title>About Us</title>
+  <title>Quiz</title>
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -26,7 +26,7 @@
   
   
 </head>
-<body>
+<body class="quiz-body">
   
   <section data-bs-version="5.1" class="menu cid-s48OLK6784" once="menu" id="menu1-h">
     
@@ -52,7 +52,7 @@
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
                     <li class="nav-item"><a class="nav-link link text-black display-4" href="index.html" >Home</a></li>
                     <li class="nav-item"><a class="nav-link link text-black display-4" href="aboutus.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="quiz-list.html">Practice</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="">Practice</a></li>
                     <li class="nav-item"><a class="nav-link link text-black display-4" href="contactus.html">Contact Us</a></li></ul>
                 <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="">Login/Sign Up</a></div>
             </div>
@@ -60,89 +60,37 @@
     </nav>
 
 </section>
+<section>
+    <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Question Text</h2>
+      <ul class="quiz-ul">
+        <li class="quiz-li">
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Answer</label>
+        </li>
 
-<section data-bs-version="5.1" class="header1 cid-s48MCQYojq mbr-fullscreen mbr-parallax-background" id="header1-f" style="color: black;">
+        <li class="quiz-li">
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Answer</label>
+        </li>
 
-    
+        <li class="quiz-li">
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Answer</label>
+        </li>
 
-    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
+        <li class="quiz-li">
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Answer</label>
+        </li>
 
-    <div class="align-center container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-8">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">Best Quiz Website</h1>
-                
-                <p class="mbr-text mbr-fonts-style display-7">On this website, you'll get the best quizzes and puzzles for free!</p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="quiz-list.html">Start a Quiz</a> <a class="btn btn-secondary display-4" href="https://mobirise.com">Start a Puzzle</a></div>
-            </div>
-        </div>
+      </ul>
     </div>
-</section>
 
-<section data-bs-version="5.1" class="content1 cid-s48udlf8KU" id="content1-8" style="color: black;">
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-12 col-md-9">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Quizzes based on your interests</strong></h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">We have a variety of categories to choose from. So that you can solve a quiz or play a puzzle based on your interests or your current mood!</h4>
-                
-            </div>
-        </div>
-    </div>
-</section>
+    <button id="submit" class="quiz-button">Submit</button>
 
-<!-- <section data-bs-version="5.1" class="image3 cid-s48upRUlSD" id="image3-9">
-    
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-9">
-                <div class="image-wrapper">
-                    <img src="assets/images/6.jpg" alt="Quizzes based on your interests">
-                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">
-                        Image</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<section data-bs-version="5.1" class="content1 cid-s48vaXqeL6" id="content1-b" style="color: black;">
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-12 col-md-9">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Use it from any device</strong></h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">This website application can be opened on any device. Be it a phone, a tablet, a laptop, a pc, any device!</h4>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- <section data-bs-version="5.1" class="content1 cid-s48vnjULo4" id="content1-c">
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-12 col-md-9">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Learn anything, anytime, anywhere</strong></h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae culpa similique maxime dolor doloremque eaque corrupti quisquam cupiditate, aperiam pariatur iure veniam praesentium iste! Minima, itaque nostrum. Voluptas, repudiandae dolores.</h4>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<section data-bs-version="5.1" class="content1 cid-s48vrXhP0J" id="content1-d" style="color: black;">
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-12 col-md-9">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Get a certificate
-</strong></h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">With every quiz you pass, you'll get a downloadable certificate which can be shared with your friends, colleagues and family. It can be also shared on LinkedIn and other social media platforms!</h4>
-            </div>
-        </div>
-    </div>
+  </div>
 </section>
 
 <section data-bs-version="5.1" class="footer3 cid-s48P1Icc8J" once="footers" id="footer3-i">
