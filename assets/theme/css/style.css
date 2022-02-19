@@ -244,6 +244,19 @@ iframe {
 .card-img img {
   width: 100%;
 }
+@media (max-width: 1225px){
+  .media-size-item {
+    width: auto !important;
+  }
+
+  .media {
+    width: auto;
+  }
+
+  .mbr-figure {
+    width: 100% !important;
+  }
+}
 
 @media (max-width: 991px) {
   .media-size-item {
