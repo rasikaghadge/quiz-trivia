@@ -1258,7 +1258,7 @@ ul{
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap'); */
 
 
-.quiz-container{
+/* .quiz-container{
   background-color: #fff;
   border-radius: 10px;
   text-align: center;
@@ -1268,6 +1268,8 @@ ul{
 }
 
 .quiz-body {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -1317,4 +1319,6 @@ ul li label{
 
 .card-text {
   color: white;
-}
+} */
+
+/* new */
